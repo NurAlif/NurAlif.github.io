@@ -1,9 +1,9 @@
 ---
 # layout: default
-title: About
+title: 
 ---
 
-# Helloword2
+# Humanoid Robot Soccer Software Development
 testtest
 1. anu
 2. teee
