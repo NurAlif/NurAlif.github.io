@@ -6,7 +6,7 @@ site.title: anuan
 
 This is Nur Alif Ilyasa's Project showcase of:
 
-# Humanoid Robot Soccer Software Development
+# Python Based Humanoid Robot Soccer Software
 ## Background
 The development of the new humanoid robot soccer software stemmed from several issues in the previous iteration:
 1. The prior software exhibited a disorganized structure, diminishing code readability.
@@ -28,6 +28,9 @@ The revamped software was constructed based on the Robotis OP3 software, featuri
 
 ### Robot software structure:
 ![Alt text](/assets/robotarch.png)
+
+### Source code:
+[Github Repository](https://github.com/NurAlif/agen3/tree/master)
 
 ### A demo for goal alignment, robot collision avoidance, and ball tracking task
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r_5oJZQcusY?si=0NBWVDoXfzsfzbJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
