@@ -29,5 +29,9 @@ The revamped software was constructed based on the Robotis OP3 software, featuri
 ### Robot software structure:
 ![Alt text](/assets/robotarch.png)
 
+### A demo for goal alignment, robot collision avoidance, and ball tracking task
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r_5oJZQcusY?si=0NBWVDoXfzsfzbJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### A robot perform in a match at Indonesian Robotics Contest 2023
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9sRURU1mo58?si=s7n6K3jUcOt6D3J3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
