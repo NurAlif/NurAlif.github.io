@@ -33,3 +33,5 @@ Driven by a time-sensitive need, upon completion, the CNC machine swiftly entere
 
 [Demo video 1](https://www.youtube.com/shorts/3cBtyi7PRRc)
 [Demo video 2](https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTI3NjU2MTAwMTUxNDQ0?igshid=MTc4MmM1YmI2Ng==)
+
+[sss](https://acefile.co/player/32562038)
