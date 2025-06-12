@@ -1,12 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur Alif Ilyasa - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827;
+            color: #d1d5db;
+        }
+        .section-title {
+            color: #9ca3af;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .card {
+            background-color: #1f2937;
+            border: 1px solid #374151;
+        }
+        .tag {
+            background-color: #374151;
+            color: #d1d5db;
+        }
+        a {
+            color: #60a5fa;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #93c5fd;
+        }
+    </style>
 </head>
-<body>
+<body class="antialiased">
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <div class="container mx-auto max-w-4xl py-12 px-4 sm:px-6 lg:px-8">
+
+        <!-- Header Section -->
+        <header class="flex flex-col sm:flex-row items-center justify-between mb-12">
+            <div>
+                <h1 class="text-4xl font-bold text-white">Nur Alif Ilyasa</h1>
+                <p class="mt-2 text-lg text-gray-400">Software Engineer | AI, Robotics, and Game Development Enthusiast</p>
+                <div class="mt-4 flex space-x-4 text-sm text-gray-400">
+                    <span>parasyst@gmail.com</span>
+                    <span>|</span>
+                    <span>+6281217304001</span>
+                    <span>|</span>
+                    <span>Taiwan</span>
+                </div>
+            </div>
+            <div class="mt-4 sm:mt-0">
+                <!-- You can add a profile picture here if you want -->
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold text-white mb-4">About Me</h2>
+            <p class="text-gray-300 leading-relaxed">
+                A Master of Computer Science student at National Dong Hwa University with a strong foundation in software engineering across a wide range of domains. I am passionate about research in Artificial Intelligence, particularly in areas like LLMs and Deep Learning. My interests also extend to Robotics and Game Development, where I enjoy building innovative and practical solutions.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-16">
+            <h2 class="section-title mb-6">Technical Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="card p-4 rounded-lg"><span class="font-semibold text-white">Python</span></div>
+                <div class="card p-4 rounded-lg"><span class="font-semibold text-white">JavaScript</span></div>
+                <div class="card p-4 rounded-lg"><span class="font-semibold text-white">C# / C++</span></div>
+                <div class="card p-4 rounded-lg"><span class="font-semibold text-white">Java</span></div>
+                <div class="card p-4 rounded-lg"><span class="font-semibold text-white">PyTorch</span></div>
+                <div class="card p-4 rounded-lg"><span class="font-semibold text-white">ROS</span></div>
+                <div class="card p-4 rounded-lg"><span class="font-semibold text-white">Unity 3D</span></div>
+                <div class="card p-4 rounded-lg"><span class="font-semibold text-white">OpenCV</span></div>
+                <div class="card p-4 rounded-lg"><span class="font-semibold text-white">YOLO</span></div>
+                <div class="card p-4 rounded-lg"><span class="font-semibold text-white">Node.js</span></div>
+                <div class="card p-4 rounded-lg"><span class="font-semibold text-white">Android Studio</span></div>
+                <div class="card p-4 rounded-lg"><span class="font-semibold text-white">3D Design</span></div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="mb-16">
+            <h2 class="section-title mb-6">Project Showcase</h2>
+            <div class="space-y-8">
+
+                <!-- Project 1 -->
+                <div class="card p-6 rounded-lg">
+                    <h3 class="text-xl font-bold text-white">Humanoid Robot Soccer Object Detection System using YOLO</h3>
+                    <p class="mt-2 text-gray-300">Trained, integrated, and compared various versions of YOLO to significantly improve the object detection capabilities of the UNY Robotics Team's humanoid robot. The system reliably detects the ball, goal, and other robots, which was a core part of my undergraduate thesis.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="tag px-2 py-1 text-sm rounded-full">Python</span>
+                        <span class="tag px-2 py-1 text-sm rounded-full">YOLO</span>
+                        <span class="tag px-2 py-1 text-sm rounded-full">OpenCV</span>
+                        <span class="tag px-2 py-1 text-sm rounded-full">ROS</span>
+                        <span class="tag px-2 py-1 text-sm rounded-full">Computer Vision</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="card p-6 rounded-lg">
+                    <h3 class="text-xl font-bold text-white">Python Based Humanoid Robot Soccer Software</h3>
+                    <p class="mt-2 text-gray-300">Initiated and developed a new Python-based software framework for the UNY Humanoid Robot Soccer Team. This new architecture improved code readability and development speed, leading to a successful performance and goal-scoring ability at the Indonesian Robotic Contest 2023.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                         <span class="tag px-2 py-1 text-sm rounded-full">Python</span>
+                         <span class="tag px-2 py-1 text-sm rounded-full">ROS</span>
+                         <span class="tag px-2 py-1 text-sm rounded-full">Robotics</span>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="card p-6 rounded-lg">
+                    <h3 class="text-xl font-bold text-white">Takraw Ball Game Service Foul Detector</h3>
+                    <p class="mt-2 text-gray-300">Designed and implemented a computer vision-based foul detection service for the Takraw Ball Game. The system uses object detection and kicked ball analysis from a camera feed, utilizing OpenCV and a YOLO model trained on PyTorch.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                         <span class="tag px-2 py-1 text-sm rounded-full">Python</span>
+                         <span class="tag px-2 py-1 text-sm rounded-full">OpenCV</span>
+                         <span class="tag px-2 py-1 text-sm rounded-full">YOLO</span>
+                         <span class="tag px-2 py-1 text-sm rounded-full">PyTorch</span>
+                         <span class="tag px-2 py-1 text-sm rounded-full">Computer Vision</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="card p-6 rounded-lg">
+                    <h3 class="text-xl font-bold text-white">Web-Based Plant Recommendation System "Soilmatch"</h3>
+                    <p class="mt-2 text-gray-300">Trained an LSTM classification model with TensorFlow and deployed it as a web application named "Soilmatch". The system recommends plants based on soil criteria.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                         <span class="tag px-2 py-1 text-sm rounded-full">Python</span>
+                         <span class="tag px-2 py-1 text-sm rounded-full">TensorFlow</span>
+                         <span class="tag px-2 py-1 text-sm rounded-full">LSTM</span>
+                         <span class="tag px-2 py-1 text-sm rounded-full">Web Development</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2 class="section-title mb-6">Education</h2>
+            <div class="space-y-6">
+                <div class="card p-6 rounded-lg">
+                    <h3 class="text-lg font-bold text-white">Master of Computer Science and Information Engineering</h3>
+                    <p class="text-gray-400">National Dong Hwa University, Taiwan | 2024 - Present</p>
+                    <p class="mt-2 text-gray-300">GPA: 4.28/4.50</p>
+                    <p class="mt-1 text-gray-300">Research Focus: Eternal Learning (LLM), AI, Deep Learning, NLP</p>
+                </div>
+                <div class="card p-6 rounded-lg">
+                    <h3 class="text-lg font-bold text-white">Bachelor in Information Technology</h3>
+                    <p class="text-gray-400">Universitas Negeri Yogyakarta, Indonesia | 2020 - 2023</p>
+                    <p class="mt-2 text-gray-300">GPA: 3.90/4.00</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center mt-16 text-gray-500 text-sm">
+            <p>&copy; 2024 Nur Alif Ilyasa. All Rights Reserved.</p>
+            <p>Styled with <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">Tailwind CSS</a>.</p>
+        </footer>
+
+    </div>
 
 </body>
 </html>
